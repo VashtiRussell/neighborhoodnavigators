@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop | Neighborhood Navigators</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Neighborhood <span>Navigators</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="cart-link" href="cart.html">Cart <span id="cart-count">0</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Shop</p>
+      <h1>Choose your adventure box</h1>
+      <p>Start with one neighborhood box or build a custom activity experience for your community.</p>
+    </section>
+
+    <section class="product-grid">
+      <article class="product-card">
+        <div class="product-art">🗺️</div>
+        <h2>Neighborhood Explorer Box</h2>
+        <p>Coloring pages, puzzles, games, and local scavenger hunt activities.</p>
+        <p class="price">$34.00</p>
+        <button onclick="addToCart('Neighborhood Explorer Box')">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <div class="product-art">🏛️</div>
+        <h2>Landmark Coloring Pack</h2>
+        <p>Printable-style landmark illustrations and kid-friendly local fun facts.</p>
+        <p class="price">$18.00</p>
+        <button onclick="addToCart('Landmark Coloring Pack')">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <div class="product-art">🎒</div>
+        <h2>Custom Community Box</h2>
+        <p>Perfect for schools, realtors, neighborhood groups, and local events.</p>
+        <p class="price">Starting at $48.00</p>
+        <button onclick="addToCart('Custom Community Box')">Add to Cart</button>
+      </article>
+    </section>
+
+    <section class="section notice">
+      <h2>Ready for real checkout?</h2>
+      <p>This website is GitHub Pages ready. To accept payments, connect your buttons to Shopify, Stripe Payment Links, Square, or PayPal.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Neighborhood Navigators. All rights reserved.</p>
+  </footer>
+</body>
+</html>

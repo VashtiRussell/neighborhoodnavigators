@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart | Neighborhood Navigators</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Neighborhood <span>Navigators</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="cart-link" href="cart.html">Cart <span id="cart-count">0</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Cart</p>
+      <h1>Your activity box cart</h1>
+      <p>This demo cart saves items in your browser. Connect checkout through Shopify, Stripe, Square, or PayPal when you're ready to sell.</p>
+    </section>
+
+    <section class="cart-box">
+      <ul id="cart-items"></ul>
+      <button onclick="clearCart()">Clear Cart</button>
+      <a class="button primary" href="contact.html">Request Checkout Link</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Neighborhood Navigators. All rights reserved.</p>
+  </footer>
+</body>
+</html>
